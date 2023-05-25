@@ -18,7 +18,7 @@ function rot13(encodedStr){
 			decodedArr.push(encodedStr[i])
 		}
 		else{
-			decoderArr.push(lookup[encodedStr[i]])
+			decodedArr.push(lookup[encodedStr[i]])
 		}
 	}
   return decodedArr;//return decodedArr
